@@ -100,6 +100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
+  maxSpeed: 10
+  startDelay: 2
+  raiseTime: 2
+  raiseSpeed: 0.5
 --- !u!58 &2474055071858355100
 CircleCollider2D:
   m_ObjectHideFlags: 0
