@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -139,7 +139,1393 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: ErnestoSprites_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4019
+        width: 300
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a64998bb27fdcbf4191263aa0d33a1e7
+      internalID: 721767709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_1
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 4017
+        width: 302
+        height: 497
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9f869edb3997444a26810b10184212
+      internalID: 542650295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_2
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 4016
+        width: 299
+        height: 478
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a38ca51fbc4fd14293c9d5b0be4d0ef
+      internalID: -2127144000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_3
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 4017
+        width: 300
+        height: 497
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2d8f092a473cd43ad8f86b8d1c70a3
+      internalID: -1658722007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_4
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 4019
+        width: 302
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcd9a8b4380c2244a913d8b2b5a2b33
+      internalID: 57326942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_6
+      rect:
+        serializedVersion: 2
+        x: 2548
+        y: 4014
+        width: 299
+        height: 514
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f9bce9e6bd2f5c4e9ba45ea1eae6cd2
+      internalID: -611979104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_7
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 4016
+        width: 301
+        height: 515
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215eb2e3f42181b4c8c4b361ad3e988c
+      internalID: 1601015251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_8
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 4016
+        width: 301
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69f53893df752784ebb3a4b4f0afd807
+      internalID: 1920947306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_9
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 4014
+        width: 299
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f43d6ddc5516a5b4883e54c580d7dac1
+      internalID: 84090966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3311
+        width: 645
+        height: 620
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f191dfd36313c44f91ebc1d38161238
+      internalID: 2054794147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_12
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 3311
+        width: 645
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15c88dff2b390a4f92e78d4809c4628
+      internalID: 438529899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_13
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 3311
+        width: 644
+        height: 581
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a343d05c02bb28a42844940ba9e1cc60
+      internalID: 717715346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_14
+      rect:
+        serializedVersion: 2
+        x: 2098
+        y: 3311
+        width: 643
+        height: 606
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4c6e5a6a3b2674088d0cc279c322e1
+      internalID: -1396624236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_15
+      rect:
+        serializedVersion: 2
+        x: 2815
+        y: 3311
+        width: 644
+        height: 620
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a59bd2cbb000545a74bb60c27e9845
+      internalID: 878708970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_16
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2598
+        width: 650
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7231774ceacad7447bbb89616b718316
+      internalID: 1015022872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_17
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 2591
+        width: 648
+        height: 623
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b485d02b7a45733458dfe44c56f4e3a3
+      internalID: -560030196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_18
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 2607
+        width: 671
+        height: 632
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0cc7af64e63564cbd44e776ec7eb0c
+      internalID: -1840418878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_19
+      rect:
+        serializedVersion: 2
+        x: 2306
+        y: 2586
+        width: 671
+        height: 644
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30085f9a3015eb4eb0d821ae28611a3
+      internalID: 1446502941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_20
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 2570
+        width: 673
+        height: 651
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c8335af4352834ea69069966622751
+      internalID: 135030749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_21
+      rect:
+        serializedVersion: 2
+        x: 3982
+        y: 2573
+        width: 669
+        height: 641
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ebe86b1ace941428e3c8aa8f9d450b
+      internalID: 136864045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_22
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1999
+        width: 300
+        height: 511
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec19d6500c90454ea85def05c70c9aa
+      internalID: -2118711116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_23
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1997
+        width: 301
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccd49b455f25d04ab7d6890c5f66f7e
+      internalID: 719111366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_24
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1996
+        width: 300
+        height: 477
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d94cb69fb67e040bb7d2e9e6d3b6c9
+      internalID: 478144078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_25
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1997
+        width: 302
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fc02c370f675e41ac50cfee9f4fed9
+      internalID: -834939885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_26
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1998
+        width: 300
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3540da377beac409cc72a4d2c3dd2f
+      internalID: -1749041852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_28
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 1999
+        width: 300
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6fb8369e05c6c4488bf09f67b8edd6
+      internalID: -370623512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_29
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 2001
+        width: 300
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfcbbc1acce5f144bea63459a77a973
+      internalID: 674631372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_30
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 2001
+        width: 299
+        height: 514
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda83d39a44a3264f812166ea9d0be3e
+      internalID: 820055000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_31
+      rect:
+        serializedVersion: 2
+        x: 3842
+        y: 1998
+        width: 302
+        height: 519
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6bb83cd9607845a50ab7d14191263
+      internalID: -600593933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_33
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1348
+        width: 290
+        height: 563
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7008aa43fd88e524e959a8334a95ea01
+      internalID: 398909702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_34
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1351
+        width: 290
+        height: 550
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0135b0e474d7b43478a8447d5f48ee97
+      internalID: 961475657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_35
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1351
+        width: 291
+        height: 530
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea8a036fa95dc144a3908f86d2704d7
+      internalID: 708144837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_36
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 1351
+        width: 291
+        height: 550
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809c6f64ab5589545a49c200d1253e22
+      internalID: -1470889378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_37
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 1353
+        width: 291
+        height: 562
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a9c5932133665b4596a1fd531ed6adb
+      internalID: -2000868805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_39
+      rect:
+        serializedVersion: 2
+        x: 2541
+        y: 1346
+        width: 293
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2abd41ba557c645b95c355f226699f
+      internalID: -430034619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_40
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1348
+        width: 293
+        height: 559
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4bd4f7a48349f408af6fa25174fc5b
+      internalID: -668781082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_41
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 1348
+        width: 290
+        height: 558
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724958ec25f0dd34985c6d6860575b37
+      internalID: -1013255318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_42
+      rect:
+        serializedVersion: 2
+        x: 3844
+        y: 1346
+        width: 291
+        height: 565
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cdffbc964eff04698fa8eb5bd21f5a
+      internalID: -703861457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_44
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 751
+        width: 298
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49174e1be4034e40b313649cd96a6ef
+      internalID: -168664343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_45
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 751
+        width: 298
+        height: 496
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719106d06ed0fa54ca28a40a4600940a
+      internalID: 1543144421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_46
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 751
+        width: 299
+        height: 477
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28e0f1aa2cbfb044a8f639a4e881f00
+      internalID: 113030584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_47
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 751
+        width: 297
+        height: 495
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d98d39532e5964abf18c59947784c4
+      internalID: -1546084457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_48
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 753
+        width: 300
+        height: 510
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2f0322b10d67148858463e03cc769d
+      internalID: -1842103989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_49
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 751
+        width: 300
+        height: 511
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a7356d2ca22b54a901f1077b63f256
+      internalID: -605923702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_50
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 748
+        width: 307
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9658b185d958a647b745e09f1e23e5c
+      internalID: -2102252422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_51
+      rect:
+        serializedVersion: 2
+        x: 2972
+        y: 751
+        width: 298
+        height: 514
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d92c349d6b329458288e2bc00e1a57
+      internalID: -995612609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_52
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 751
+        width: 299
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1db1fafd5f56e2242b86ed247e7beab5
+      internalID: 1208320469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_53
+      rect:
+        serializedVersion: 2
+        x: 3839
+        y: 748
+        width: 298
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a1df185d652174c810aa8053e73e18
+      internalID: 737641032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_54
+      rect:
+        serializedVersion: 2
+        x: 4232
+        y: 748
+        width: 329
+        height: 517
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa63f4841970cbb48922ee8c3b02b861
+      internalID: -1915696016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_55
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 140
+        width: 302
+        height: 505
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da082afa2974f594783c429d513381a3
+      internalID: -1101848275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_56
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 142
+        width: 304
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a223fb7e1fd0d41ab105bee1ecbc07
+      internalID: 2146542625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_57
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 140
+        width: 304
+        height: 472
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07555a9cd2c29d84daa47895e32900cd
+      internalID: 1880596986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_58
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 142
+        width: 304
+        height: 491
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ee670069f3535448f1d3111302db8c
+      internalID: 850909232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_59
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 142
+        width: 302
+        height: 505
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb1942ad22088f4399247a2fee500d2
+      internalID: 1121965303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_60
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 135
+        width: 302
+        height: 507
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb0f63fdee8cf74388928903d85404f
+      internalID: -1499552445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_61
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 133
+        width: 311
+        height: 507
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a84af4e226bdf4caf4aa0bb7e2058d
+      internalID: -548804345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_62
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 135
+        width: 304
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910dafb1b1951f946a5696ce41422860
+      internalID: 715998580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_63
+      rect:
+        serializedVersion: 2
+        x: 3410
+        y: 135
+        width: 305
+        height: 509
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa87ecb1cdb613a4996a50df1c98bb51
+      internalID: -125974429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_64
+      rect:
+        serializedVersion: 2
+        x: 3837
+        y: 133
+        width: 302
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 343c0ac1b42f5bf44af038fd39126bcf
+      internalID: -1172649045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_65
+      rect:
+        serializedVersion: 2
+        x: 4229
+        y: 134
+        width: 339
+        height: 511
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2f7f98bcd331747b0b637caba36db0
+      internalID: 733517077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_5
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 4016
+        width: 303
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167d3a2d41756164381fdc7868966b9b
+      internalID: -243373208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_10
+      rect:
+        serializedVersion: 2
+        x: 4234
+        y: 4014
+        width: 339
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b003abd5df74a4e8d6925f9a6967b3
+      internalID: -1816055397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_27
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 2001
+        width: 302
+        height: 512
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f005ddc036372d04fafd3e42c4b24265
+      internalID: 1105826319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_32
+      rect:
+        serializedVersion: 2
+        x: 4227
+        y: 2001
+        width: 339
+        height: 516
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5eadcfca490fd4abd42c27d45db843
+      internalID: -206679257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_38
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 1348
+        width: 291
+        height: 560
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce47aa8a826e824783983e222b7d273
+      internalID: 674337840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ErnestoSprites_43
+      rect:
+        serializedVersion: 2
+        x: 4229
+        y: 1346
+        width: 330
+        height: 567
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd0723a1c373d346ad20e3fa2f90b6d
+      internalID: 1344936188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -150,7 +1536,73 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ErnestoSprites_0: 721767709
+      ErnestoSprites_1: 542650295
+      ErnestoSprites_10: -1816055397
+      ErnestoSprites_11: 2054794147
+      ErnestoSprites_12: 438529899
+      ErnestoSprites_13: 717715346
+      ErnestoSprites_14: -1396624236
+      ErnestoSprites_15: 878708970
+      ErnestoSprites_16: 1015022872
+      ErnestoSprites_17: -560030196
+      ErnestoSprites_18: -1840418878
+      ErnestoSprites_19: 1446502941
+      ErnestoSprites_2: -2127144000
+      ErnestoSprites_20: 135030749
+      ErnestoSprites_21: 136864045
+      ErnestoSprites_22: -2118711116
+      ErnestoSprites_23: 719111366
+      ErnestoSprites_24: 478144078
+      ErnestoSprites_25: -834939885
+      ErnestoSprites_26: -1749041852
+      ErnestoSprites_27: 1105826319
+      ErnestoSprites_28: -370623512
+      ErnestoSprites_29: 674631372
+      ErnestoSprites_3: -1658722007
+      ErnestoSprites_30: 820055000
+      ErnestoSprites_31: -600593933
+      ErnestoSprites_32: -206679257
+      ErnestoSprites_33: 398909702
+      ErnestoSprites_34: 961475657
+      ErnestoSprites_35: 708144837
+      ErnestoSprites_36: -1470889378
+      ErnestoSprites_37: -2000868805
+      ErnestoSprites_38: 674337840
+      ErnestoSprites_39: -430034619
+      ErnestoSprites_4: 57326942
+      ErnestoSprites_40: -668781082
+      ErnestoSprites_41: -1013255318
+      ErnestoSprites_42: -703861457
+      ErnestoSprites_43: 1344936188
+      ErnestoSprites_44: -168664343
+      ErnestoSprites_45: 1543144421
+      ErnestoSprites_46: 113030584
+      ErnestoSprites_47: -1546084457
+      ErnestoSprites_48: -1842103989
+      ErnestoSprites_49: -605923702
+      ErnestoSprites_5: -243373208
+      ErnestoSprites_50: -2102252422
+      ErnestoSprites_51: -995612609
+      ErnestoSprites_52: 1208320469
+      ErnestoSprites_53: 737641032
+      ErnestoSprites_54: -1915696016
+      ErnestoSprites_55: -1101848275
+      ErnestoSprites_56: 2146542625
+      ErnestoSprites_57: 1880596986
+      ErnestoSprites_58: 850909232
+      ErnestoSprites_59: 1121965303
+      ErnestoSprites_6: -611979104
+      ErnestoSprites_60: -1499552445
+      ErnestoSprites_61: -548804345
+      ErnestoSprites_62: 715998580
+      ErnestoSprites_63: -125974429
+      ErnestoSprites_64: -1172649045
+      ErnestoSprites_65: 733517077
+      ErnestoSprites_7: 1601015251
+      ErnestoSprites_8: 1920947306
+      ErnestoSprites_9: 84090966
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
