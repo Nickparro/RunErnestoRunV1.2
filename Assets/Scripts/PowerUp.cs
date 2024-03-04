@@ -1,20 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
-public class EnemyController : MonoBehaviour
+public class PowerUp : MonoBehaviour
 {
-    public float enemySpeed;
+    public bool bikeActive;
+    public bool gladiatorActive;
+    public float powerUpSpeed;
     
-    void Start()
-    {
-       
-    }
-
     void FixedUpdate()
     {
-       transform.Translate(-1 * enemySpeed * Time.deltaTime,0,0);
+       transform.Translate(-1 * powerUpSpeed * Time.deltaTime,0,0);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
@@ -23,5 +19,4 @@ public class EnemyController : MonoBehaviour
             Destroy(gameObject,0);
         }
     }
-
 }
