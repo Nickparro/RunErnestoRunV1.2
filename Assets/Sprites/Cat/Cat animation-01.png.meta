@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 544e77d7a3ef9d2429e104c4db16e5f5
+guid: b905766063504d249957d38fc1330a89
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -141,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PowerUpSprites_0
+      name: Cat animation-01_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 62
-        width: 652
-        height: 537
+        x: 125
+        y: 15
+        width: 582
+        height: 686
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +155,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 146b2782bb1dfb0449a4981b0fb502bf
-      internalID: -810687342
+      spriteID: 8ee1658937fca744095b0b12825e5335
+      internalID: 1726916363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PowerUpSprites_1
+      name: Cat animation-01_1
       rect:
         serializedVersion: 2
-        x: 740
-        y: 346
-        width: 274
-        height: 221
+        x: 707
+        y: 15
+        width: 582
+        height: 686
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +176,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7db72d5f02a6da946ac7fee458b526df
-      internalID: 1666577616
+      spriteID: 3c908aaa3ebf5f545987337d02e72823
+      internalID: 2077737229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PowerUpSprites_2
+      name: Cat animation-01_2
       rect:
         serializedVersion: 2
-        x: 1073
-        y: 295
-        width: 300
-        height: 320
+        x: 1289
+        y: 15
+        width: 582
+        height: 686
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +197,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bd913c26add3864e94c29d71109187d
-      internalID: 1240774153
+      spriteID: 687a954473a8eca4bb2007a5f7bd22c4
+      internalID: -429494663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PowerUpSprites_3
+      name: Cat animation-01_3
       rect:
         serializedVersion: 2
-        x: 1431
-        y: 317
-        width: 305
-        height: 278
+        x: 1871
+        y: 15
+        width: 582
+        height: 686
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +218,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 841fb39a667bf454ca1a326e6c00cabb
-      internalID: 286197204
+      spriteID: e43311287e3e7e745935772432cb4391
+      internalID: -1492448501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PowerUpSprites_4
+      name: Cat animation-01_4
       rect:
         serializedVersion: 2
-        x: 1796
-        y: 326
-        width: 311
-        height: 261
+        x: 2453
+        y: 15
+        width: 582
+        height: 686
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,8 +239,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0e2adcc826ce1646ba0df6c2492719c
-      internalID: -398050746
+      spriteID: 33010937797168943bde06cf25698965
+      internalID: -567926715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat animation-01_5
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 15
+        width: 582
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c8ee932ba88a641980ba719141d068
+      internalID: 2134579566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cat animation-01_6
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 15
+        width: 582
+        height: 686
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaf98f77df97744997c3b1b4937e4fa
+      internalID: 1717979286
       vertices: []
       indices: 
       edges: []
@@ -256,11 +298,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PowerUpSprites_0: -810687342
-      PowerUpSprites_1: 1666577616
-      PowerUpSprites_2: 1240774153
-      PowerUpSprites_3: 286197204
-      PowerUpSprites_4: -398050746
+      Cat animation-01_0: 1726916363
+      Cat animation-01_1: 2077737229
+      Cat animation-01_2: -429494663
+      Cat animation-01_3: -1492448501
+      Cat animation-01_4: -567926715
+      Cat animation-01_5: 2134579566
+      Cat animation-01_6: 1717979286
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
