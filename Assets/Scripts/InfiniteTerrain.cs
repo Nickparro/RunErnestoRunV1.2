@@ -11,7 +11,7 @@ public class InfiniteTerrain : MonoBehaviour
     private List<TileBase> currentSectionTiles;
     public float verticalSpacing = 3f;  // Separación vertical entre filas
     public float scrollSpeed = 2f;  // Velocidad de desplazamiento
-    public int tilesPerSection = 20;  // Número de tiles por sección
+    public int tilesPerSection = 40;  // Número de tiles por sección
     public int maxVisibleColumns = 30;  // Máximo número de columnas visibles a la vez
 
     void Start()
