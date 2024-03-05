@@ -6,23 +6,23 @@ using JetBrains.Annotations;
 
 public class RespawnSystem : MonoBehaviour
 {
-    [SerializeField] private GameObject[] enemies;
-    [SerializeField] private GameObject[] powerUps;
-    [SerializeField] private GameObject[] rows;
+    [SerializeField] private GameObject[] enemies; // Tipos de enemigos
+    [SerializeField] private GameObject[] powerUps; // Tipos de power up
+    [SerializeField] private GameObject[] rows; // Filas disponibles para generar el spawn
 
     [Header("Enemies Configuration")]
-    [SerializeField] private float currentEnemySpeed;
-    [SerializeField] private float enemyInitialSpeed = 3f;
+    [SerializeField] private float currentEnemySpeed; // Velocidad actual del enemigo
+    [SerializeField] private float enemyInitialSpeed = 3f; 
     [SerializeField] private float enemyMaxSpeed = 10f;
-    [SerializeField] private float enemyIncreaseSpeed = 0.5f;
-    [SerializeField] private float intervalEnemySpeed = 10f;
-    [SerializeField] private float delayEnemySpeed = 20f;
-    [SerializeField] private float enemyRespawnTime;
-    [SerializeField] private float countRespawnEnemyTime;
-    [SerializeField] private float subtractEnemyTime = 0.5f;
-    [SerializeField] private float intervalEnemySpawn = 10f;
-    [SerializeField] private float minIntervalEnemySpawn = 1f;
-    [SerializeField] private float delayEnemySpawn = 20f;
+    [SerializeField] private float enemyIncreaseSpeed = 0.5f; // Numero que incrementará la velocidad del enemigo
+    [SerializeField] private float intervalEnemySpeed = 10f; // Intervalo sobre cada cuanto se aumentará el enemyIncreaseSpeed
+    [SerializeField] private float delayEnemySpeed = 20f; // Determina cuanto tiempo se esperará antes de ejecutar el incremento (En la corrutina)
+    [SerializeField] private float enemyRespawnTime; // Intervalo de respawneo actual
+    [SerializeField] private float countRespawnEnemyTime; // Lleva la cuenta del enemyRespawnTime
+    [SerializeField] private float subtractEnemyTime = 0.5f; // Numero de decremendo en el tiempo de respawneo
+    [SerializeField] private float intervalEnemySpawn = 10f; // Intervalo en el que se decrementará el tiempo de respawneo
+    [SerializeField] private float minIntervalEnemySpawn = 1f; // Minimo tiempo de respawneo
+    [SerializeField] private float delayEnemySpawn = 20f; // Determina cuanto tiempo se esperará antes de ejecutar el decremento (En la corrutina)
    
     [Header("Power Up Configuration")]
     [SerializeField] private float currentPowerUpSpeed;
@@ -45,20 +45,21 @@ public class RespawnSystem : MonoBehaviour
         StartCoroutine(PowerUpIncreaseSpeed());
         StartCoroutine(RaisePowerUps());
         currentEnemySpeed = enemyInitialSpeed; // Se inicializa la velocidad inicial del enemigo
-        currentPowerUpSpeed = powerUpInitialSpeed;
+        currentPowerUpSpeed = powerUpInitialSpeed; // Se inicializa la velocidad inicial de los Power Up
     }
     void Update()
     {
-        countRespawnPowerUpTime += Time.deltaTime;
+        //Los countRespawn se encargarán de llevar el tiempo que se limitará en las siguientes condiciones
+        countRespawnPowerUpTime += Time.deltaTime; 
         countRespawnEnemyTime += Time.deltaTime; 
         
-        if(countRespawnEnemyTime >= enemyRespawnTime)
+        if(countRespawnEnemyTime >= enemyRespawnTime) //Cuando el conteo sea mayor o igual al intervalo establecido entonces...
         {
-             countRespawnEnemyTime = 0;
-             SpawnEnemy();
+             countRespawnEnemyTime = 0; //Se reinicia el conteo
+             SpawnEnemy(); // Spawnea un enemigo
         }
         
-        if(countRespawnPowerUpTime >= powerUpRespawnTime)
+        if(countRespawnPowerUpTime >= powerUpRespawnTime) 
             {
                 countRespawnPowerUpTime = 0;
                 SpawnPowerUp();
@@ -84,24 +85,24 @@ public class RespawnSystem : MonoBehaviour
         Instantiate(powerUps[powerUpSelected], powerUpPosition, Quaternion.identity); 
     }
    
-    IEnumerator EnemyIncreaseSpeed()
+    IEnumerator EnemyIncreaseSpeed() //Corrutina que incrementa la velocidad del enemigo a través del tiempo 
     {
-        yield return new WaitForSeconds(delayEnemySpeed);
-        while (currentEnemySpeed < enemyMaxSpeed)
+        yield return new WaitForSeconds(delayEnemySpeed); // Declara los segundos que se espera antes de ejecutar la corrutina despues de iniciar el juego
+        while (currentEnemySpeed < enemyMaxSpeed) // Mientras la velocidad actual del enemigo sea menor a la velocidad maxima entonces...
         {
-            yield return new WaitForSeconds(intervalEnemySpeed);
-            currentEnemySpeed += enemyIncreaseSpeed;
+            yield return new WaitForSeconds(intervalEnemySpeed); 
+            currentEnemySpeed += enemyIncreaseSpeed; //Se sumará el incremento a la velocidad actual en un intervalo equivalente al "intervalEnemySpeed"
         }
     }
 
-    IEnumerator RaiseEnemies()
+    IEnumerator RaiseEnemies() // Corrutina que disminuye los intervalos de spawn para que salgan cada vez mas rapido
     {
         yield return new WaitForSeconds(delayEnemySpawn); 
 
-        while (enemyRespawnTime > minIntervalEnemySpawn)
+        while (enemyRespawnTime > minIntervalEnemySpawn) // Mientras el intervalo de respawn sea mayor al numero minimo de intervalos entonces... 
         {
             yield return new WaitForSeconds(intervalEnemySpawn);
-            enemyRespawnTime -= subtractEnemyTime;
+            enemyRespawnTime -= subtractEnemyTime; // Se restará el decremento a los intervalos
         }
     }
 
