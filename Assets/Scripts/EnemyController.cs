@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
-    public float speed;
+    public float enemySpeed;
     
     void Start()
     {
@@ -14,11 +14,14 @@ public class EnemyController : MonoBehaviour
 
     void FixedUpdate()
     {
-       transform.Translate(-1 * speed * Time.deltaTime,0,0);
+       transform.Translate(-1 * enemySpeed * Time.deltaTime,0,0);
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
-        Destroy(gameObject,0);
+        if(other.gameObject.CompareTag("Finish"))
+        {
+            Destroy(gameObject,0);
+        }
     }
 
 }
