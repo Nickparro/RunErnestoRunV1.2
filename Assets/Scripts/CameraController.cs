@@ -6,11 +6,11 @@ public class CameraController : MonoBehaviour
 {
     public static CameraController instance;
 
-    public float minHeight, maxHeight; // Altura mínima y máxima a la que la cámara puede seguir al objetivo
+    public float minHeight, maxHeight; // Altura mï¿½nima y mï¿½xima a la que la cï¿½mara puede seguir al objetivo
 
-    private Vector2 lastPos; // Última posición de la cámara
+    private Vector2 lastPos; // ï¿½ltima posiciï¿½n de la cï¿½mara
 
-    private Transform target; // Objetivo que la cámara sigue
+    private Transform target; // Objetivo que la cï¿½mara sigue
 
     private void Awake()
     {
@@ -20,26 +20,26 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        lastPos = transform.position; // Guarda la posición inicial de la cámara
-        SetTarget(GameObject.FindGameObjectWithTag("Player").transform); // Establece el objetivo de la cámara como el objeto con el tag "Player"
+        lastPos = transform.position; // Guarda la posiciï¿½n inicial de la cï¿½mara
+        SetTarget(GameObject.FindGameObjectWithTag("Player").transform); // Establece el objetivo de la cï¿½mara como el objeto con el tag "Player"
     }
 
     void Update()
     {
         if (target != null)
         {
-            transform.position = new Vector3(target.position.x, Mathf.Clamp(target.position.y, minHeight, maxHeight), transform.position.z);
-            // Actualiza la posición de la cámara, manteniendo la coordenada x del objetivo y limitando la coordenada y dentro de los valores minHeight y maxHeight
+            transform.position = new Vector3(target.position.x + 25, Mathf.Clamp(target.position.y, minHeight, maxHeight), transform.position.z);
+            // Actualiza la posiciï¿½n de la cï¿½mara, manteniendo la coordenada x del objetivo y limitando la coordenada y dentro de los valores minHeight y maxHeight
 
             Vector2 amountToMove = new Vector2(transform.position.x - lastPos.x, transform.position.y - lastPos.y);
-            // Calcula la cantidad de movimiento de la cámara
+            // Calcula la cantidad de movimiento de la cï¿½mara
 
-            lastPos = transform.position; // Actualiza la última posición de la cámara
+            lastPos = transform.position; // Actualiza la ï¿½ltima posiciï¿½n de la cï¿½mara
         }
     }
 
     public void SetTarget(Transform newTarget)
     {
-        target = newTarget; // Establece un nuevo objetivo para la cámara
+        target = newTarget; // Establece un nuevo objetivo para la cï¿½mara
     }
 }

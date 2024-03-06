@@ -6,9 +6,11 @@ using JetBrains.Annotations;
 
 public class RespawnSystem : MonoBehaviour
 {
+    [SerializeField] private GameObject background;
     [SerializeField] private GameObject[] enemies; // Tipos de enemigos
     [SerializeField] private GameObject[] powerUps; // Tipos de power up
     [SerializeField] private GameObject[] rows; // Filas disponibles para generar el spawn
+   
 
     [Header("Enemies Configuration")]
     [SerializeField] private float currentEnemySpeed; // Velocidad actual del enemigo
@@ -64,6 +66,8 @@ public class RespawnSystem : MonoBehaviour
                 countRespawnPowerUpTime = 0;
                 SpawnPowerUp();
             }
+        
+        background.GetComponent<ParallaxBackground>().speed = currentEnemySpeed;
     }
     void SpawnEnemy()
     {
